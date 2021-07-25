@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  background: #ddd5f5;
+  position: relative;
+  align-items: center;
+  padding: 2vw 0;
+  z-index: 1;
+  -webkit-box-shadow: 0px 4px 8px -2px #540fed;
+  box-shadow: 0px 4px 8px -2px #540fed;
+  &__logo {
+    color: #540fed;
+    font-size: 7vw;
+    display: flex !important;
+    align-items: center;
+  }
+
+  &__description {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 580px) {
+  .header {
+    &__logo {
+      font-size: 5vw;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    height: 2vw;
+    &__logo {
+      font-size: 3vw;
+    }
+    &__description {
+      font-size: 1vw;
+    }
+  }
+}
