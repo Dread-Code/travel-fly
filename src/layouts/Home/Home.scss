@@ -1,0 +1,33 @@
+.home-container {
+  background: #ddd5f5;
+  .image {
+    width: 100%;
+    height: 70vw;
+    background-repeat: no-repeat !important;
+    display: flex;
+    background-position: center !important;
+    position: relative;
+    justify-content: center;
+    .ui.selection.dropdown {
+      position: absolute;
+      height: 2vw;
+      top: 60%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    .image {
+      margin-top: 0.1vw;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    .image {
+      height: 55vw;
+    }
+  }
+}
