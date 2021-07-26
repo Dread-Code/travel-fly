@@ -1,17 +1,10 @@
-import React, { useState } from 'react'
-import { useHistory } from 'react-router-dom'
+import React from 'react'
 import { Menu } from 'semantic-ui-react'
-import getOptions from '../../utils/getOptions'
+import useMenu from './hook/useMenu'
 import './Menu.scss'
 
 const MenuComponent = () => {
-  const [activeItem, setActiveItem] = useState('inicio')
-  const options = getOptions()
-  const history = useHistory()
-  const handleItemClick = (e, { name }) => {
-    setActiveItem(name)
-    history.push(`/${name}`)
-  }
+  const { activeItem, options, handleItemClick } = useMenu()
 
   return (
     <Menu color="black" inverted widths={3} className="menu">
