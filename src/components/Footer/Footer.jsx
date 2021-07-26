@@ -9,15 +9,15 @@ const Footer = () => (
         <Grid.Column width={3}>
           <Header inverted as="h4" content="Somos Travel FLy" />
           <List link inverted>
-            <List.Item as="a">Link </List.Item>
-            <List.Item as="a">Link Two</List.Item>
+            <List.Item as="a">Contactanos</List.Item>
+            <List.Item as="a">Sugerencias</List.Item>
           </List>
         </Grid.Column>
         <Grid.Column width={3}>
           <Header inverted as="h4" content="Confianza en tu viaje" />
           <List link inverted>
             <List.Item as="a">Términos y condiciones</List.Item>
-            <List.Item as="a">Link Two</List.Item>
+            <List.Item as="a">Siempre contigo</List.Item>
           </List>
         </Grid.Column>
         <Grid.Column width={3}>
