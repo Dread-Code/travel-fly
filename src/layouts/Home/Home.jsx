@@ -27,8 +27,13 @@ const Home = () => {
   }, [width])
 
   const handlerOnClose = ({ target }) => {
-    const { name } = options.filter(({ text }) => text === target.innerText)[0]
-    history.push(`/${name}`)
+    const result = options.filter(({ text }) => {
+      if (text) return text === target.innerText
+      return null
+    })
+    if (result.length !== 0) {
+      history.push(`/${result[0].name}`)
+    }
   }
 
   return (
