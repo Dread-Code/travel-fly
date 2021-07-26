@@ -1,0 +1,52 @@
+.airline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vw;
+  width: 90vw;
+  background: #5410ea;
+  position: relative;
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 1vw;
+  .register-form-title {
+    color: #ebe5f5;
+  }
+}
+
+@media (min-width: 580px) {
+  .airline-container {
+    height: 85vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .airline-container {
+    height: 58vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .airline-container {
+    height: 50vw;
+    width: 70vw;
+    margin: 5vh 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .airline-container {
+    height: 50vw;
+    width: 40vw;
+    margin: 4vh 30%;
+    padding: 7vh;
+  }
+}
+
+@media (min-width: 1860px) {
+  .airline-container {
+    height: 32vw;
+    width: 40vw;
+    padding: 7vh;
+  }
+}
