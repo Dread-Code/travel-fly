@@ -19,6 +19,10 @@ You will also see any lint errors in the console.
 * Formik and Yup
 * React router DOM
 
+## Best practices helpers
+* Eslint
+* Prettier
+
 ## Deploy
 The App is deployed in Vercel https://travel-fly.vercel.app/home
 
