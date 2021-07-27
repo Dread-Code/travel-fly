@@ -79,6 +79,6 @@
         "no-param-reassign": 0,
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
         "no-console": "off",
-        "linebreak-style": ["error", "unix"]
+        "linebreak-style": ["error", "unix"],
     }
 }
