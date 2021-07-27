@@ -12,12 +12,20 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Run Docker
+For run this app on docker you only need run the following commends in the root of this directory:
+* `docker build -t dreadfulcrazy/travel-fly`
+* `docker run -p 3000:3000 -v pwd:/mnt/travel-fly dreadfulcrazy/travel-fly`
+
+In linux you only need change the las command for this `docker run -p 3000:3000 -v $(pwd):/mnt/travel-fly dreadfulcrazy/travel-fly`
+
 ## Tecnologies
 * React
 * Sass
 * Semantic UI
 * Formik and Yup
 * React router DOM
+* Docker
 
 ## Best practices helpers
 * Eslint
