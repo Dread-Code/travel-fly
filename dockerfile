@@ -7,8 +7,6 @@ COPY package*.json ./
 
 COPY . .
 
-RUN apk add nano
-
 EXPOSE 3000
 
 ENTRYPOINT npm install && npm rebuild node-sass && npm start
